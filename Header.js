@@ -5,12 +5,12 @@ const Header = () => {
     
     return (
         <View style ={styles.viewStyle}>
-            <Text style ={styles.textStyle}>- ReminD-Me -</Text>  
+            <Text style ={styles.textStyle}> ReminD ME </Text>  
         </View>
     );
 };
 
-export default Header;
+
 
 const styles = StyleSheet.create({
     textStyle: {
@@ -29,3 +29,5 @@ const styles = StyleSheet.create({
         elevation: 8
     } 
 });
+
+export default Header;
